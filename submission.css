@@ -1,0 +1,126 @@
+.upper-content{
+    background-color: #373737;
+    padding: 65px;
+}
+
+.profile{
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-profile{
+    float: left;
+    margin-left: 50px;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+}
+
+.profile h2{
+    text-align: center;
+}
+
+.content{
+    min-height: 100%;
+}
+
+.line {
+    background:#f1b0c3;
+    position:relative;
+    height:3px;
+}
+.line:before {
+    content:'';
+    background-image: linear-gradient(to right, #16a961,#16acbc);
+    width:50%;
+    height:3px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.line:after {
+    content:'';
+    background:black;
+    width:25%;
+    height:3px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.lower-content{
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+}
+
+.story{
+    color: black;
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+.story strong{
+    color: black;
+}
+
+.info{
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+.info strong{
+    color: black;
+}
+
+.info p{
+    color: black;
+}
+
+.data{
+    float: left;
+}
+
+.info hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: -150px;
+}
+
+.footer h2{
+    color: black;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links img{
+    width: 50px;
+    height: 50px;
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+}
